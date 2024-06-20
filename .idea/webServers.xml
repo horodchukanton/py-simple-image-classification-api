@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2b0eae2c-ae9d-469c-8d29-21c6702b65dc" name="pi@192.168.1.5">
+        <fileTransfer rootFolder="/mnt/usb1/rasp-node-2/window" accessType="SFTP" host="192.168.1.5" port="22" sshConfigId="8dfd9c3b-5de7-47fc-a1f4-a5864bbab76a" sshConfig="pi@192.168.1.5:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
